@@ -1,9 +1,35 @@
 {
   "name": "xo-3d",
-  "version": "1.0.0",
-  "main": "index.js",
+  "description": "tic tac toe game in 3 dimentions (3*3*3).",
+  "version": "0.1.0",
+  "main": "src/app.js",
+  "repository": "github:flaviocopes/testing",
+  "keywords": [
+    "three.js",
+    "webgl",
+    "game",
+    "javascript",
+    "xo",
+    "tic tac toe"
+  ],
+  "contributors": [
+    {
+      "name": "Mohahhamd Sharifi",
+      "email": "mohammadsharifi9978@gmail.com"
+    },
+    {
+      "name": "MohammadReza Iranmanesh",
+      "email": "imohammadreza.ir@gmail.com",
+      "url": "https://imohammadreza.ir"
+    }
+  ],
   "license": "MIT",
+  "scripts": {
+    "start": "live-server --open=public"
+  },
   "dependencies": {
+    "live-server": "^1.2.1",
+    "table": "^5.4.6",
     "three": "^0.110.0"
   }
 }
