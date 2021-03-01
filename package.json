@@ -30,6 +30,6 @@
   "dependencies": {
     "live-server": "^1.2.1",
     "table": "^5.4.6",
-    "three": "^0.110.0"
+    "three": "^0.125.0"
   }
 }
